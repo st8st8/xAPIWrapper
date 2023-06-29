@@ -1504,6 +1504,7 @@ function isDate(date) {
 
         //Consolidate headers
         var headers = {};
+        headers["Accept"] = "application/json";
         headers["Content-Type"] = "application/json";
         headers["Authorization"] = auth;
         headers['X-Experience-API-Version'] = ADL.XAPIWrapper.xapiVersion;
